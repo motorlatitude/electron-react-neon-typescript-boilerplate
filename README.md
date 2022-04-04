@@ -1,3 +1,5 @@
 # electron-react-neon-typescript-boilerplate
 
-Electron boiler plate using React as the frontend and TypeScript + Rust as the backend via Neon.
+![Screenshot](https://raw.githubusercontent.com/motorlatitude/electron-react-neon-typescript-boilerplate/master/src/assets/img/screenshot.png)
+
+Electron boilerplate using React as the frontend and TypeScript + Rust as the backend via Neon.
