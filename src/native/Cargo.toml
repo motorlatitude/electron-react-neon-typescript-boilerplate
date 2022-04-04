@@ -1,0 +1,21 @@
+[package]
+name = "electron-react-neon-typescript-boilerplate"
+version = "0.1.0"
+description = "Electron boiler plate using React as the frontend and TypeScript + Rust as the backend via Neon"
+authors = ["Lennart Hase"]
+license = "ISC"
+edition = "2018"
+exclude = ["index.node"]
+
+[lib]
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num_cpus = "1"
+
+[dependencies.neon]
+version = "0.10"
+default-features = false
+features = ["napi-6"]
