@@ -17,21 +17,32 @@ body{
   display: flex;
 }
 
-.main_application {
+.bg {
+  width: 80%;
+  height: 200%;
+  background: #15141B;
+  position: absolute;
+  top: -50%;
+  left: -25%;
+  z-index: 0;
+  transform: rotate(15deg);
+}
+
+.logos {
   flex: auto;
   color: #0086CF;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 20px;
-  background: #15141B;
   width: 50%;
   height: 100%;
+  z-index: 1;
 }
 
-.main_application img{
+.logos img{
   display: inline-block;
-  margin: 60px 20px;
-  height: 90px;
+  margin: 60px 30px;
+  height: 80px;
 }
 
 .versions {
@@ -53,7 +64,7 @@ body{
 
 p {
   background: rgba(84, 84, 84, 0.1);
-  padding: 12px 22px;
+  padding: 12px 0 12px 120px;
   margin: 0;
   font-family: Lucida Console, monospace;
   font-weight: 500;

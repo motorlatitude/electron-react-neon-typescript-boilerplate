@@ -3,13 +3,14 @@ declare const MAIN_WINDOW_WEBPACK_ENTRY: any;
 
 // Modules to control application life and create native browser window
 import { app, BrowserWindow } from 'electron'
-import * as path from 'path'
 
 function createWindow() {
   // Create the browser window.
   const mainWindow: any = new BrowserWindow({
     width: 900,
     height: 500,
+    resizable: false,
+    autoHideMenuBar: true,
     webPreferences: {
       preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY
     }

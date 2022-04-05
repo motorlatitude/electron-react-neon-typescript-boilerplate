@@ -16,7 +16,8 @@ export const App: React.FC = (): React.ReactElement => {
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.main_application}>
+      <div className={styles.bg}></div>
+      <div className={styles.logos}>
         <img src={electronLogo} alt="logo" />
         <img src={reactLogo} alt="logo" />
         <img src={typescriptLogo} alt="logo" /><br />
