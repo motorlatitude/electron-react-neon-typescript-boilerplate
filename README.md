@@ -2,13 +2,14 @@
   <img height="350" src="https://raw.githubusercontent.com/motorlatitude/electron-react-neon-typescript-boilerplate/master/src/assets/img/screenshot.png" />
 </p>
 
+# electron-react-neon-typescript-boilerplate
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=motorlatitude_electron-react-neon-typescript-boilerplate&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=motorlatitude_electron-react-neon-typescript-boilerplate)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=motorlatitude_electron-react-neon-typescript-boilerplate&metric=bugs)](https://sonarcloud.io/summary/new_code?id=motorlatitude_electron-react-neon-typescript-boilerplate)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=motorlatitude_electron-react-neon-typescript-boilerplate&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=motorlatitude_electron-react-neon-typescript-boilerplate)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=motorlatitude_electron-react-neon-typescript-boilerplate&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=motorlatitude_electron-react-neon-typescript-boilerplate)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=motorlatitude_electron-react-neon-typescript-boilerplate&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=motorlatitude_electron-react-neon-typescript-boilerplate)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=motorlatitude_electron-react-neon-typescript-boilerplate&metric=bugs)](https://sonarcloud.io/summary/new_code?id=motorlatitude_electron-react-neon-typescript-boilerplate)
 
-## electron-react-neon-typescript-boilerplate
 
 Electron react boilerplate using [Electron](https://www.electronjs.org/), [React](https://reactjs.org/), [Neon](https://neon-bindings.com/), [Webpack](https://webpack.js.org/) and [Typescript](https://www.typescriptlang.org/).
 
@@ -45,11 +46,11 @@ To start the application use:
 You can build the rust application separately using:
 
 ```bash
-  yarn build
+  yarn run build
 ```
 
 You can package the application for distribution using:
 
 ```bash
-  yarn package
+  yarn run package
 ```
